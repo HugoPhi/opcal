@@ -11,6 +11,8 @@ permissions:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    permissions:
+      id-token: write  # 添加此行以允许请求 OIDC 令牌
 
     steps:
     - name: Check out the repository
