@@ -1,6 +1,8 @@
+build==1.2.2.post1
 contourpy==1.1.1
 cycler==0.12.1
 fonttools==4.55.3
+importlib_metadata==8.5.0
 importlib_resources==6.4.5
 kiwisolver==1.4.7
 matplotlib==3.7.5
@@ -9,8 +11,10 @@ packaging==24.2
 pandas==2.0.3
 pillow==10.4.0
 pyparsing==3.1.4
+pyproject_hooks==1.2.0
 python-dateutil==2.9.0.post0
 pytz==2024.2
 six==1.17.0
+tomli==2.2.1
 tzdata==2024.2
 zipp==3.20.2
