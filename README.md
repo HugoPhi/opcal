@@ -1,14 +1,12 @@
-# Labs for Course 'Numberical Calcualtion & Optimization Theory' 
+# Numerical Methods & Optimzation
 
-Source code for labs. 
-
-## Numberical Calcualtion 
+## # Numberical Methods 
 - Lab1 (Solution of Equations)   
-    - Solution of Linear Equations System. 
+    - Solution of Linear Equations System
         - Principle Component Method
         - Jacobi Iteration ALgorithm
         - Gauss-Seidel Iteration Algorithm  
-    - Solution of Nolinear Equations. (!:TODO: how to define the loss of secant method?) 
+    - Solution of Nolinear Equations
         - Bisection Method
         - Newton's Method
         - Secant Method   
@@ -19,30 +17,40 @@ Source code for labs.
         - cubic spline interpolation     
         - Aitken interpolation  
         - Hermit interpolation  
-    - Higher Dimensional Interpolation Methods. (TODO)
-        - 2D 
-        - 3D 
-- Lab3 (Optimisation)
-    - approximation of functions (TODO)
-- Lab4 (Difference Equations)
-    - Solution of Differential Equations (TODO)
-    - Solution of Non-Linear Differential Equations (TODO)
+    - 2D Interpolation Methods
+        - Nearest Neighbor Interpolation
+        - Bilinear Interpolation
+        - Bicubic Interpolation
+- Lab3 (Approximation)
+    - approximation of functions 
+- Lab4 (Integration & Difference Equations)
+    - Numerical Intergration
+        - Rectangular Method
+        - Trapezoidal Rule
+        - Simpson's Rule
+        - Gaussian Quadrature
+        - Monte Carlo
+    - Numerical Ode
+        - Eular Method
+        - Improved Euler Method
+        - Runge Kutta from 2~10
 
 
+## # Optimisation Algorithms
 
-## Optimisation Algorithms
 - Lab1 (Gradient Descent)
-    - Stochastic Gradient Descent (TODO)
-    - Mini-Batch Gradient Descent (TODO)
-    - Batch Gradient Descent (TODO)
-    - Adaptive Moment Estimation (TODO)
-    - Momentum (TODO)
-    - Nesterov Accelerated Gradient Descent (TODO)
-    - RMSprop (TODO)
-    - Adam (TODO)
-    - NAG (TODO)
-    - Adagrad (TODO)
-    - Adadelta (TODO)
+    - Batch
+        - SGD
+        - Batched
+        - Mini-Batched
+    - Variants
+        - SGD
+        - Momentum
+        - Nesterov Accelerated Gradient (NAG)
+        - AdaGrad
+        - RMSProp
+        - AdaDelta
+        - Adam (Adaptive Moment Estimation) 
 - Lab2 (Heuristic Methods)
     - Genetic Algorithm 
     - Particle Swarm Optimization (TODO)
