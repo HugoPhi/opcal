@@ -1,5 +1,14 @@
 # Numerical Methods & Optimzation
 
+<p align="center">
+  <img src="./Optimazation/assets/batched_sgd.gif" alt="Batched SGD" width="45%">
+  <img src="./Optimazation/assets/gds2.gif" alt="Various SGDs" width="45%">
+</p>
+
+<p align="center">
+(a) The impact of batch on the optimization process; (b) The performance of different gradient descent variants on the same task.
+</p>
+
 ## # Numberical Methods 
 - Lab1 (Solution of Equations)   
     - Solution of Linear Equations System
