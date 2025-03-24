@@ -10,7 +10,7 @@
 </p>
 
 ## # Numberical Methods 
-- Lab1 (Solution of Equations)   
+- Solution of Equations   
     - Solution of Linear Equations System
         - Principle Component Method
         - Jacobi Iteration ALgorithm
@@ -19,7 +19,7 @@
         - Bisection Method
         - Newton's Method
         - Secant Method   
-- Lab2 (Interpolation)
+- Interpolation
     - 1D Interpolation Methods. 
         - Lagrange interpolation
         - Newtonian interpolation
@@ -30,9 +30,9 @@
         - Nearest Neighbor Interpolation
         - Bilinear Interpolation
         - Bicubic Interpolation
-- Lab3 (Approximation)
+- Approximation
     - approximation of functions 
-- Lab4 (Integration & Difference Equations)
+- Integration & Difference Equations
     - Numerical Intergration
         - Rectangular Method
         - Trapezoidal Rule
@@ -47,7 +47,7 @@
 
 ## # Optimisation Algorithms
 
-- Lab1 (Gradient Descent)
+- Gradient Descent
     - Batch
         - SGD
         - Batched
@@ -60,7 +60,7 @@
         - RMSProp
         - AdaDelta
         - Adam (Adaptive Moment Estimation) 
-- Lab2 (Heuristic Methods)
+- Heuristic Methods
     - Genetic Algorithm 
     - Particle Swarm Optimization (TODO)
     - Multi-Layer Perceptron (TODO)
