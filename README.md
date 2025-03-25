@@ -61,8 +61,11 @@
         - AdaDelta
         - Adam (Adaptive Moment Estimation) 
 - Heuristic Methods
-    - Genetic Algorithm 
-    - Particle Swarm Optimization (TODO)
-    - Multi-Layer Perceptron (TODO)
-    - Ant Colony optimization (TODO)
-    - Simulated Annealing (TODO)
+    - Traveling Salesman Problem
+        - Genetic Algorithm 
+        - Particle Swarm Optimization
+        - Ant Colony Optimization
+    - MNIST
+        - Multi-Layer Perceptron (see this [notebook](https://github.com/HugoPhi/jaxdls/blob/main/mlp_mnist.ipynb))
+    - GA
+        - Simulated Annealing (TODO)
