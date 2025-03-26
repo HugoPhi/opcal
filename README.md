@@ -96,7 +96,7 @@ SGD with <code>batch_size=1, 10, 100</code>, on Linear Regression Task with (a) 
 </p>
 
 <p align="center">
-SGD, Momentum, NAG, AdaGrad, RMSProp, AdaDelta, Adam on (a) $\sin(wx)+b$; (b) $w\sin(wx)+b$. 
+SGD, Momentum, NAG, AdaGrad, RMSProp, AdaDelta, Adam on Regression Fuction: (a) $f(x) = \sin(wx)+b$; (b) $f(x) = w\sin(wx)+b$. 
 </p>
 
 
