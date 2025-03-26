@@ -87,7 +87,6 @@
 SGD with <code>batch_size=1, 10, 100</code>, on Linear Regression Task with (a) <code>noise=0.5</code>; (b) <code>noise=5</code>; (c) <code>noise=50</code>.
 </p>
 
-----
 
 ### @ GD Varients on Different Regression Functions.
 
@@ -101,15 +100,13 @@ SGD with <code>batch_size=1, 10, 100</code>, on Linear Regression Task with (a) 
 SGD, Momentum, NAG, AdaGrad, RMSProp, AdaDelta, Adam on Regression Fuction: (a) $f(x) = \sin(wx)+b$; (b) $f(x) = w\sin(wx)+b$. 
 </p>
 
-----
-
 
 ### @ Traveling Salesman Problem by Heuristic Methods
 
 > 💡 Notice:  
 > - ACO: Basic.    
 > - PSO: 2-opt.   
-> - GA : with 2-opt, elite, tournament, OX crossover.    
+> - GA : with 2-opt, elite, tournament, OX crossover, dynamic mutation rate.    
 
 <p align="center">
   <img src="./Optimzation/assets/tsp_10.gif" alt="TSP" width="90%">
