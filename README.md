@@ -102,7 +102,10 @@ SGD, Momentum, NAG, AdaGrad, RMSProp, AdaDelta, Adam on (a) $\sin(wx)+b$; (b) $w
 
 ### @ Traveling Salesman Problem by Heuristic Methods
 
-> 💡 Left: ACO, Middle: PSO(with 2-opt), Right: GA(with 2-opt, elite, tournament, OX crossover.)
+> 💡 Notice:  
+> - ACO: Basic.    
+> - PSO: 2-opt.   
+> - GA : with 2-opt, elite, tournament, OX crossover.    
 
 <p align="center">
   <img src="./Optimzation/assets/tsp_10.gif" alt="TSP" width="90%">
