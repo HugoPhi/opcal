@@ -1,7 +1,7 @@
 # Numerical Methods & Optimzation
 
 <p align="center">
-  <img src="./Optimzation/assets/batched_sgd.gif" alt="Batched SGD" width="45%">
+  <img src="./Optimzation/assets/batched_sgd_noise5.0.gif" alt="Batched SGD" width="45%">
   <img src="./Optimzation/assets/gds2.gif" alt="Various SGDs" width="45%">
 </p>
 
@@ -75,37 +75,72 @@
      
 ## # Some Interesting Animations 
 
-### @ Traveling Salesman Problem
+### @ Batched SGDs on Linear Regression
 
 <p align="center">
-  <img src="./Optimzation/assets/tsp_10.gif" alt="TSP" width="80%">
+  <img src="./Optimzation/assets/batched_sgd_noise0.5.gif" alt="TSP" width="30%">
+  <img src="./Optimzation/assets/batched_sgd_noise5.0.gif" alt="TSP" width="30%">
+  <img src="./Optimzation/assets/batched_sgd_noise10.gif" alt="TSP" width="30%">
 </p>
 
 <p align="center">
-TSP with 10 cities.
+SGD with <code>batch_size=1, 10, 100</code>, on Linear Regression Task with (a) <code>noise=0.5</code>; (b) <code>noise=5</code>; (c) <code>noise=50</code>.
 </p>
 
-<p align="center">
-  <img src="./Optimzation/assets/tsp_20.gif" alt="TSP" width="80%">
-</p>
-
-<p align="center">
-TSP with 20 cities.
-</p>
+### @ GD Varients on Different Regression Functions.
 
 
 <p align="center">
-  <img src="./Optimzation/assets/tsp_50.gif" alt="TSP" width="80%">
+  <img src="./Optimzation/assets/gds1.gif" alt="TSP" width="45%">
+  <img src="./Optimzation/assets/gds2.gif" alt="TSP" width="45%">
 </p>
 
 <p align="center">
-TSP with 50 cities.
+SGD, Momentum, NAG, AdaGrad, RMSProp, AdaDelta, Adam on (a) $\sin(wx)+b$; (b) $w\sin(wx)+b$. 
+</p>
+
+
+### @ Traveling Salesman Problem by Heuristic Methods
+
+> 💡 Left: ACO, Middle: PSO(with 2-opt), Right: GA(with 2-opt, elite, tournament, OX crossover.)
+
+<p align="center">
+  <img src="./Optimzation/assets/tsp_10.gif" alt="TSP" width="90%">
 </p>
 
 <p align="center">
-  <img src="./Optimzation/assets/tsp_100.gif" alt="TSP" width="80%">
+TSP with 10 cities. (a) ACO; (b) PSO; (c) GA.
 </p>
 
 <p align="center">
-TSP with 100 cities.
+  <img src="./Optimzation/assets/tsp_20.gif" alt="TSP" width="90%">
+</p>
+
+<p align="center">
+TSP with 20 cities. (a) ACO; (b) PSO; (c) GA.
+</p>
+
+
+<p align="center">
+  <img src="./Optimzation/assets/tsp_50.gif" alt="TSP" width="90%">
+</p>
+
+<p align="center">
+TSP with 50 cities. (a) ACO; (b) PSO; (c) GA.
+</p>
+
+<p align="center">
+  <img src="./Optimzation/assets/tsp_100.gif" alt="TSP" width="90%">
+</p>
+
+<p align="center">
+TSP with 100 cities. (a) ACO; (b) PSO; (c) GA.
+</p>
+
+<p align="center">
+  <img src="./Optimzation/assets/tsp_200.gif" alt="TSP" width="90%">
+</p>
+
+<p align="center">
+TSP with 200 cities. (a) ACO; (b) PSO; (c) GA.
 </p>
